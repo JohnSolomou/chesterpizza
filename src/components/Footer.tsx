@@ -16,7 +16,9 @@ const Footer = () => {
         <div className={styles.card}>
           <h1 className={styles.title}>FIND OUR RESTAURANT</h1>
           <p className={styles.text}>
-            5504 Chester Ave
+            pickup or delivery
+            <br />
+            <br /> 5504 Chester Ave
             <br /> Philadelphia, 19143
             <br /> (215) 727-0441
           </p>
@@ -30,7 +32,11 @@ const Footer = () => {
           <h1 className={styles.title}>Holiday Hours</h1>
           <p className={styles.text}>
             Closed on these Holidays
-            <br /> Easter Christmas Labor Day
+            <br /> Easter
+            <br />
+            Labor Day
+            <br />
+            Christmas
           </p>
         </div>
       </div>

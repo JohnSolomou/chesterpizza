@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
-          <div className={styles.text}>012 345 678</div>
+          <div className={styles.text}>215 727 0441</div>
         </div>
       </div>
       <div className={styles.item}>
@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li className={styles.listItem}>
-            <Link to="/Products">Products</Link>
+            <Link to="/product">Products</Link>
           </li>
           <li className={styles.listItem}>
             <Link to="/menu">Menu</Link>

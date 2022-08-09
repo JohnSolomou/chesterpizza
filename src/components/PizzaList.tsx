@@ -1,5 +1,5 @@
-import styles from "../styles/PizzaList.module.css";
-import PizzaCard from "./PizzaCard"
+import styles from "../css/PizzaList.module.css";
+import PizzaCard from "./PizzaCard";
 
 const PizzaList = () => {
   return (
@@ -11,14 +11,14 @@ const PizzaList = () => {
         sit amet, consectetur adipiscing elit.
       </p>
       <div className={styles.wrapper}>
-          <PizzaCard/>
-          <PizzaCard/>
-          <PizzaCard/>
-          <PizzaCard/>
-          <PizzaCard/>
-          <PizzaCard/>
-          <PizzaCard/>
-          <PizzaCard/>
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
       </div>
     </div>
   );

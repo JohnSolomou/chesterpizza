@@ -1,4 +1,7 @@
-import { jsx as _jsx } from "react/jsx-runtime";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Card, Button, Form, Container } from "react-bootstrap";
+import "../css/globals.css";
+import "../css/Contact.module.css";
 export default function Contact() {
-    return _jsx("div", { children: "Contact" });
+    return (_jsx("div", Object.assign({ className: "", style: { backgroundColor: "#222" } }, { children: _jsx(Container, Object.assign({ className: "d-flex align-items-center justify-content-center", style: { minHeight: "60vh", backgroundColor: "#222" } }, { children: _jsx("div", { children: _jsx(Card, Object.assign({ style: { minWidth: "500px", minHeight: "300px" } }, { children: _jsxs(Card.Body, { children: [_jsx("h2", Object.assign({ className: "text-center mb-4" }, { children: "Contact Us " })), _jsx("p", { children: "Tell us how we are doing" }), _jsxs(Form, { children: [_jsxs(Form.Group, Object.assign({ id: "name" }, { children: [_jsx(Form.Label, { children: "Name" }), _jsx(Form.Control, { type: "email", required: true })] })), _jsxs(Form.Group, Object.assign({ id: "email" }, { children: [_jsx(Form.Label, { children: "Email" }), _jsx(Form.Control, { type: "email", required: true })] })), _jsxs(Form.Group, Object.assign({ className: "mb-3", controlId: "exampleForm.ControlTextarea1" }, { children: [_jsx(Form.Label, { children: "Message" }), _jsx(Form.Control, { as: "textarea", rows: 3 })] })), _jsx(Button, Object.assign({ className: " sendbtn ", type: "submit" }, { children: "send" }))] })] }) })) }) })) })));
 }
