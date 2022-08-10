@@ -1,9 +1,9 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import styles from "../css/Product.module.css";
-import pizzapic from "../img/pizza.png";
+import styles from "../../css/Product.module.css";
+import pizzapic from "../../img/pizza.png";
 import { useState } from "react";
-import logo from "../img/size.png";
-import "../css/globals.css";
+import logo from "../../img/size.png";
+import "../../css/globals.css";
 const Product = () => {
     const [size, setSize] = useState(0);
     const pizza = {

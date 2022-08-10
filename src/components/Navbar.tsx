@@ -42,7 +42,10 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <div className={styles.cart}>
-          <img src={cart} alt="" width="30px" height="30px" />
+          <Link to="/cart">
+            {" "}
+            <img src={cart} alt="" width="30px" height="30px" />
+          </Link>
           <div className={styles.counter}>2</div>
         </div>
       </div>

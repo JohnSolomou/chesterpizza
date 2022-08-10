@@ -1,6 +1,5 @@
 .container {
-  padding: 50px;
-  display: flex;
+  padding: 40px;
 }
 
 .left {
@@ -9,12 +8,6 @@
 
 .right {
   flex: 1;
-}
-
-.imgContainer {
-  width: 100px;
-  height: 100px;
-  position: relative;
 }
 
 .table {
@@ -82,10 +75,13 @@
     width: 35vw;
     height: 35vw;
   }
-  .name, .total {
+  .name,
+.total {
     font-size: 24px;
   }
-  .extras, .price, .quantity {
+  .extras,
+.price,
+.quantity {
     font-size: 22px;
   }
   .price::before {
