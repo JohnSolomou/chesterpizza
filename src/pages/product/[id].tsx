@@ -9,7 +9,11 @@ const Product = () => {
     id: 1,
     img: pizzapic,
     name: "CAMPAGNOLA",
-    price: [19.9, 23.9, 27.9],
+    price: [
+      [19.9, " Small Pizza"],
+      [23.9, " Large Pizza"],
+      [27.9, " Family Pizza"],
+    ],
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus, rhoncus fringilla vestibulum vel, dignissim vel ante. Nulla facilisi. Nullam a urna sit amet tellus pellentesque egestas in in ante.",
   };
 
