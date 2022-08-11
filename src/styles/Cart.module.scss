@@ -1,4 +1,5 @@
 .container {
+  display: flex;
   padding: 40px;
 }
 
@@ -16,17 +17,18 @@
 //   display: flex;
 // }
 
-// .imgContainer {
-//   width: 50px;
-//   height: 50px;
-//   position: relative;
-// }
+.imgContainer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
 
 .table {
   width: 100%;
-  border-spacing: 20px;
 }
-
+th {
+  padding-bottom: 20px;
+}
 .name {
   font-weight: 500;
   color: #d1411e;
@@ -38,7 +40,7 @@
   font-size: 18px;
 }
 
-.wrapper {
+.cartWrapper {
   width: 90%;
   max-height: 300px;
   background-color: #333;

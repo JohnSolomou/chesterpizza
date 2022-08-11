@@ -19,7 +19,7 @@
   justify-content: space-between;
 }
 
-.done {
+.completed {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,14 +50,14 @@
     opacity: 1;
   }
 }
-.undone {
+.incomplete {
   display: flex;
   flex-direction: column;
   align-items: center;
   opacity: 0.3;
 }
 
-.undone .checkedIcon,
+.incomplete .checkedIcon,
 .inProgress .checkedIcon {
   display: none;
 }
@@ -126,8 +126,8 @@
     align-items: center;
     justify-content: center;
   }
-  .done,
-.undone,
+  .completed,
+.incomplete,
 .inProgress {
     margin-bottom: 20px;
   }

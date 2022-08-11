@@ -27,4 +27,7 @@
     width: 90%;
     text-align: center;
   }
+  .container {
+    position: relative;
+  }
 }/*# sourceMappingURL=PizzaList.module.css.map */

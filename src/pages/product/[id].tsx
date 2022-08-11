@@ -28,15 +28,15 @@ const Product = () => {
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => setSize(0)}>
             <img src={logo} alt="" />
-            <span className={styles.number}>Small</span>
+            <span className={styles.number}>Small 10"</span>
           </div>
           <div className={styles.size} onClick={() => setSize(1)}>
             <img src={logo} alt="" />
-            <span className={styles.number}>Medium</span>
+            <span className={styles.number}>Medium 14"</span>
           </div>
           <div className={styles.size} onClick={() => setSize(2)}>
             <img src={logo} alt="" />
-            <span className={styles.number}>Large</span>
+            <span className={styles.number}>Family 18"</span>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const Product = () => {
               id="cheese"
               name="cheese"
             />
-            <label htmlFor="cheese">Extra Cheese</label>
+            <label htmlFor="cheese"> Extra Cheese</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -65,7 +65,7 @@ const Product = () => {
               id="sausage"
               name="sausage"
             />
-            <label htmlFor="sausage">sausage (pork)</label>
+            <label htmlFor="sausage"> sausage (pork)</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -74,7 +74,7 @@ const Product = () => {
               id="green-peppers"
               name="green-peppers"
             />
-            <label htmlFor="green-peppers">Green Peppers</label>
+            <label htmlFor="green-peppers"> Green Peppers</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -83,7 +83,7 @@ const Product = () => {
               name="meatball"
               className={styles.checkbox}
             />
-            <label htmlFor="meatball">MeatBall</label>
+            <label htmlFor="meatball"> MeatBall</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -92,7 +92,7 @@ const Product = () => {
               name="ground-beef"
               className={styles.checkbox}
             />
-            <label htmlFor="ground-beef">Ground Beef</label>
+            <label htmlFor="ground-beef"> Ground Beef</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -101,7 +101,7 @@ const Product = () => {
               name="pepperoni"
               className={styles.checkbox}
             />
-            <label htmlFor="pepperoni">Peperoni(Pork)</label>
+            <label htmlFor="pepperoni"> Peperoni(Pork)</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -110,7 +110,7 @@ const Product = () => {
               name="beef-pepperoni"
               className={styles.checkbox}
             />
-            <label htmlFor="beef-pepperoni">Beef Pepperoni</label>
+            <label htmlFor="beef-pepperoni"> Beef Pepperoni</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -119,7 +119,7 @@ const Product = () => {
               name="mushroom"
               className={styles.checkbox}
             />
-            <label htmlFor="mushroom">Mushroom</label>
+            <label htmlFor="mushroom"> Mushroom</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -128,7 +128,7 @@ const Product = () => {
               name="broccoli"
               className={styles.checkbox}
             />
-            <label htmlFor="broccoli">Broccoli</label>
+            <label htmlFor="broccoli"> Broccoli</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -137,7 +137,7 @@ const Product = () => {
               name="bacon"
               className={styles.checkbox}
             />
-            <label htmlFor="bacon">Bacon</label>
+            <label htmlFor="bacon"> Bacon</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -146,7 +146,7 @@ const Product = () => {
               name="bbq"
               className={styles.checkbox}
             />
-            <label htmlFor="bbq">BBQ Sauce</label>
+            <label htmlFor="bbq"> BBQ Sauce</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -155,7 +155,7 @@ const Product = () => {
               name="steak"
               className={styles.checkbox}
             />
-            <label htmlFor="steak">Steak</label>
+            <label htmlFor="steak"> Steak</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -164,7 +164,7 @@ const Product = () => {
               name="chicken-steak"
               className={styles.checkbox}
             />
-            <label htmlFor="chicken-steak">Chicken Steak</label>
+            <label htmlFor="chicken-steak"> Chicken Steak</label>
           </div>
           <div className={`global.grid-item`}>
             <input
@@ -173,12 +173,12 @@ const Product = () => {
               name="grilled-chicken"
               className={styles.checkbox}
             />
-            <label htmlFor="grilled-chicken">Grilled Chicken</label>
+            <label htmlFor="grilled-chicken"> Grilled Chicken</label>
           </div>
         </div>
         <div className={styles.add}>
           <input type="number" defaultValue={1} className={styles.quantity} />
-          <button className={styles.button}>Add to Cart</button>
+          <button className={styles.button}> Add to Cart</button>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+// <a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a> cheese pizza
 a {
   color: white;
   text-decoration: none;
@@ -16,19 +16,20 @@ a {
   box-sizing: border-box;
 }
 .container {
-  width: 700px;
-  height: 450px;
-  background-color: black;
+  width: 850px;
+  height: 500px;
+  background-color: #d1411e;
   padding: 0px;
 }
 .slidercontainer {
-  width: 100%;
-  background-color: #222;
+  height: 500;
+  width: 850px;
+  background-color: #d1411e;
 }
 .container2 {
   color: white;
   margin-left: 320px;
-  width: 600px;
+  width: 800px;
   height: 500px;
   background-color: #d1411e;
   padding-top: 2rem;
@@ -47,10 +48,43 @@ a {
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 3px;
   grid-row-gap: 3px;
+  margin-bottom: 10px;
 }
 .grid-item {
+  position: relative;
   display: grid;
   border: 1px solid rgba(0, 0, 0, 0.8);
   grid-column-start: 1;
   grid-column-end: 3;
+}
+@media screen and (max-width: 450px) {
+  .carousel-item {
+    width: 350px;
+    height: 16rem;
+  }
+  .container {
+    width: 350px;
+    height: 16rem;
+    background-color: #d1411e;
+  }
+  .slidercontainer {
+    width: 100%;
+    background-color: #d1411e;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-item {
+    width: 750px;
+  }
+  .container {
+    width: 750px;
+    height: 450px;
+    background-color: #d1411e;
+  }
+  .slidercontainer {
+    height: 450px;
+    width: 100%;
+    background-color: #d1411e;
+  }
 }

@@ -7,18 +7,19 @@
   flex: 1;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .right {
   flex: 1;
+  margin: auto;
+  padding-right: 100px;
 }
 
 .imgContainer {
   width: 95%;
-  height: 905;
-  position: relative;
+  height: 600px;
+  margin: auto;
+  padding-left: 60px;
 }
 
 .price {
@@ -29,7 +30,7 @@
 }
 
 .sizes {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
 }
@@ -57,7 +58,7 @@
 .number {
   position: absolute;
   top: -5px;
-  right: -30px;
+  right: -40px;
   background-color: teal;
   color: white;
   font-size: 12px;
@@ -81,8 +82,14 @@
 .checkbox {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
+  align-items: center;
+  margin-top: 3px;
 }
-
+label {
+  position: absolute;
+  align-items: center;
+}
 .quantity {
   width: 50px;
   height: 30px;

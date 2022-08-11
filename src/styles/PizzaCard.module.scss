@@ -22,15 +22,18 @@
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 100%;
+    width: 90%;
+    text-align: center;
   }
 
   .title {
     font-size: 30px;
+    text-align: center;
   }
 
   .price,
   .desc {
     font-size: 24px;
+    text-align: center;
   }
 }

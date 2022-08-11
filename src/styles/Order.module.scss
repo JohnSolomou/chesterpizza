@@ -19,7 +19,7 @@
   justify-content: space-between;
 }
 
-.done {
+.completed {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,14 +41,14 @@
   }
 }
 
-.undone {
+.incomplete {
   display: flex;
   flex-direction: column;
   align-items: center;
   opacity: 0.3;
 }
 
-.undone .checkedIcon,
+.incomplete .checkedIcon,
 .inProgress .checkedIcon {
   display: none;
 }
@@ -122,13 +122,13 @@
     justify-content: center;
   }
 
-  .done,
-  .undone,
+  .completed,
+  .incomplete,
   .inProgress {
     margin-bottom: 20px;
   }
 
-  .wrapper{
+  .wrapper {
     width: 100%;
   }
 }
