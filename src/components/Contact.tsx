@@ -44,8 +44,8 @@ export default function Contact() {
         {error && <Alert variant="danger">{error}</Alert>} */}
               <Form>
                 <Form.Group id="name">
-                  <Form.Label>Name</Form.Label>
-                  <Form.Control type="email" required />
+                  <Form.Label></Form.Label>
+                  <Form.Control type="email" required placeholder="name" />
                 </Form.Group>
                 <Form.Group id="email">
                   <Form.Label>Email</Form.Label>
