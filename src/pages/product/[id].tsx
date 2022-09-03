@@ -31,15 +31,15 @@ const Product = () => {
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => setSize(0)}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" id="small" />
             <span className={styles.number}>Small 10"</span>
           </div>
           <div className={styles.size} onClick={() => setSize(1)}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" id="medium" />
             <span className={styles.number}>Medium 14"</span>
           </div>
           <div className={styles.size} onClick={() => setSize(2)}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" id="family" />
             <span className={styles.number}>Family 18"</span>
           </div>
         </div>

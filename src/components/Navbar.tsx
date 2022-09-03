@@ -17,30 +17,30 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.listItem}>
+          <li id="home" className={styles.listItem}>
             <Link to="/">Home</Link>
           </li>
-          <li className={styles.listItem}>
+          <li className={styles.listItem} id="prod">
             <Link to="/product">Products</Link>
           </li>
-          <li className={styles.listItem}>
+          <li id="menu" className={styles.listItem}>
             <Link to="/menu">Menu</Link>
           </li>
           <img src={logo} alt="" width="100px" height="100px" />
-          <li className={styles.listItem}>
+          <li id="events" className={styles.listItem}>
             <Link to="/events">Events</Link>
           </li>
-          <li className={styles.listItem}>
+          <li id="blog" className={styles.listItem}>
             {" "}
             <Link to="/blog">Blog</Link>
           </li>
-          <li className={styles.listItem}>
+          <li id="contact" className={styles.listItem}>
             {" "}
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
-      <div className={styles.item}>
+      <div id="cart" className={styles.item}>
         <div className={styles.cart}>
           <Link to="/cart">
             {" "}
