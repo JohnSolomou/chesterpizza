@@ -6,6 +6,7 @@ import { getPizzaList } from "../components/api";
 export default function Home() {
     const [product, setProducts] = useState([
         {
+            _id: "",
             title: "",
             desc: "",
             img: "",

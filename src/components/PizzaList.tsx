@@ -11,8 +11,8 @@ const PizzaList = ({ PizzaList }: any) => {
         sit amet, consectetur adipiscing elit.
       </p>
       <div className={styles.wrapper}>
-        {PizzaList.map((pizzas: any) => (
-          <PizzaCard key={pizzas.id} title={pizzas.title} desc={pizzas.desc} />
+        {PizzaList.map((pizza: any) => (
+          <PizzaCard key={pizza._id} title={pizza.title} desc={pizza.desc} />
         ))}
       </div>
     </div>

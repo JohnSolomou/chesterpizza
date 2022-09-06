@@ -9,6 +9,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 export function getPizzaList() {
     return __awaiter(this, void 0, void 0, function* () {
-        return yield fetch("http://localhost:4000/products").then((data) => data.json());
+        return yield fetch(`http://localhost:4000/product`).then((data) => data.json());
     });
 }
